@@ -20,11 +20,11 @@ GAPPS="$1"
 
 cd `dirname $0`
 
-mkdir -p proprietary
+mkdir -p proprietary/gapps
 mkdir tmp
 
 unzip -q -o -d tmp $GAPPS
 
-find tmp/system -type f -exec mv -v -f {} proprietary/ \;
+find tmp/system -type f -exec mv -v -f {} proprietary/gapps \;
 
 rm -rf tmp
