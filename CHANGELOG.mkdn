@@ -65,6 +65,7 @@ Maintainers:
 * LGE Optimus Pro: arcee
 * LGE Optimus Sol: Kali-
 * LGE Optimus One: Adam Farden
+* U8150 (Ideos): Lalit Maganti and Alan Orth
 
 Translators:
 ------------
@@ -87,6 +88,7 @@ Translators:
 * Czech: Ondrej Zima
 * Turkish: Ethem Evlice (androidmeda)
 * Hungarian: Kalman Stipta (apeelme), Zsolt Kelemen (kelzsoca), Zsolt Villant (Keeperv85), Janos Horvath (hjanos1)
+* Dutch: Marco Brohet
 
 CHANGELOG (notable new features or fixes)
 ---------
@@ -151,8 +153,6 @@ Note: This is the Unofficial Stable 7.1 Version for Jordan
 * Jordan: Open source ADBD and Busybox "adb shell" with history saving
 * Jordan: Busybox 1.19.3*
 * Jordan: Market fingerprint and stability
-
-(*Not merged in upstream for the moment)
 
 ### 7.1.0
 * Common: Android 2.3.7 (Google)
