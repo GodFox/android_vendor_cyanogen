@@ -131,6 +131,31 @@ CHANGELOG (notable new features or fixes)
 * Several devices: Fix device identification on Android Market
 * crespo, jordan, blade, v9, Samsung Galaxy S devices: Device specific settings section
 
+### 7.1.0-11 Jordan (11 Nov 2011) - CyanogenDefy Version
+
+Note: This is the Unofficial Stable 7.1 Version for Jordan
+      Released after OMAP4 merges which slow down the upstream merges
+
+      The official 7.1.0 and actual official nightlies doesn't include
+      all our features. That is the purpose of this release.
+
+* Common: Connection Profiles and Notifications Enhancements
+* Common: Lockscreen Calendar and options
+* Common: Phone Landscape Dialpad Layout*
+* Common: Keyboard : Swipe Gestures (caps, keyboard modes)*
+* Common: Device specific Settings Menu
+* Jordan: Multitouch and LED mode settings
+* Jordan: Compass calibration and DSP settings (from motorola)
+* Jordan: Better Battery Life
+* Jordan: Button Backlight Tuning
+* Jordan: Camera and videos Enhancements, enhanced stability*
+* Jordan: Fake pds partition to prevent alterations
+* Jordan: Enhanced ADB over Network (Notification icon)*
+* Jordan: Recovery 5.0.3.1 with devtree support
+* Jordan: Open source ADBD and Busybox "adb shell" with history saving
+* Jordan: Busybox 1.19.3*
+* Jordan: Market fingerprint and stability
+
 ### 7.1.0
 * Common: Android 2.3.7 (Google)
 * Common: Bluetooth mouse support - Scott Brady
@@ -193,6 +218,26 @@ CHANGELOG (notable new features or fixes)
 * Encore: Backport 2.6.35 Bluetooth - Fattire
 * Encore: Working mem sleep
 * Encore: USB host support - Verygreen
+
+### 7.1.0-RC1.5 Jordan
+
+Note: Official jordan cyanogen builds are now booting
+      but some work is required on video codecs
+
+* USB/Wifi/Bluetooth Tethering.
+* New set of kernel modules built from sources: overclocking, MMC-fix, multitouch
+* Camera: Touch to focus
+* Fixed video flashlight for red camera
+* N-point MultiTouch (persist.sys.multitouch)
+* Fixed geotags in the photos
+* Fixed dual SIM adapters which use Stk not working
+* Increase boot speed. (merged in CM7)
+* Bionic libc optimization (merged in CM7)
+* CrystalTalk (Voice filter)
+* Bootmenu 1.0.4 with adb modes and new Mass storage modes
+* Overscroll custom color (not only set by themes)
+* Adb over Network with warning
+* Camera shutter mute setting (persist.sys.camera-mute)
 
 ### 7.0.3
 * Common: Don't allow packages with platform keys on user-controlled storage
